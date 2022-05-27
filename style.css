@@ -9,7 +9,7 @@ a{
 }
 
 header .logo{
-    font-size: 50px;
+    font-size: 2.5rem;
     color: rgb(238, 164, 80);
     
 }
@@ -17,7 +17,7 @@ header .logo{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 1.1%;
     align-items: center;
     background-color: rgb(29, 26, 24);
 }
@@ -29,8 +29,8 @@ header ul{
 }
 
 header ul li{
-    margin-right: 20px;
-    font-size: 20px;
+    margin-right: 1.2rem;
+    font-size: 1.25rem;
 }
 
 header ul li a{
@@ -43,29 +43,29 @@ header ul li a:hover{
 
 main h2{
     color: rgb(238, 164, 80);
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 main ul{
     width: 80%;
-    margin: 30px auto;
+    margin: 2rem auto;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
-    gap: 16px;
+    gap: 1.2rem;
 }
 
 main li{
     background-color: rgb(228, 206, 182);
-    border-radius: 8px;
+    border-radius: 0.7rem;
     overflow: hidden;
     height: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 
 main img{
-    height: 200px;
+    height: 15rem;
     width: 100%;
     object-fit: cover;
 }
@@ -76,17 +76,17 @@ main ul li div{
 }
 
 main ul li div a{
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 main ul li .food_content{
-    font-size: 23px;
+    font-size: 1.5rem;
 }
 
 main .btn{
     background-color: rgb(228, 157, 44);
     color: white;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 main ul li a:hover{
