@@ -40,3 +40,55 @@ header ul li a{
 header ul li a:hover{
     color: rgb(228, 163, 44);
 }
+
+main h2{
+    color: rgb(238, 164, 80);
+    font-size: 40px;
+}
+
+main ul{
+    width: 80%;
+    margin: 30px auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 16px;
+}
+
+main li{
+    background-color: rgb(228, 206, 182);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+main img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+main ul li div{
+    align-items: center;
+    text-align: center;
+}
+
+main ul li div a{
+    padding: 10px;
+}
+
+main ul li .food_content{
+    font-size: 23px;
+}
+
+main .btn{
+    background-color: rgb(228, 157, 44);
+    color: white;
+    border-radius: 8px;
+}
+
+main ul li a:hover{
+    background-color: rgb(221, 134, 34);
+}
